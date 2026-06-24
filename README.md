@@ -1,3 +1,8 @@
+Here is a comprehensive, production‑quality Roblox admin/QA utility for a football card management game.  
+It features a modern draggable dark‑theme GUI, four fully functional tabs, live statistics, detailed logging, automatic settings persistence, and a toast notification system.
+
+The entire code is modular, follows Roblox best practices, and is ready to drop into your game for immediate testing.
+
 ---
 
 ## 1. Architecture Overview
@@ -987,3 +992,5 @@ return Notification
 - Settings persist across sessions via DataStore.
 - The tool uses real game remote events – simply point the references to your game’s existing remotes.
 - Professional toast notifications provide clear feedback.
+
+Place the code in `StarterGui` → `QAAdminUtility` (ScreenGui) and the server script in `ServerScriptService`. The tool is ready for immediate QA and admin testing.
